@@ -1,0 +1,40 @@
+
+ <!DOCTYPE html>
+<html lang="es">
+ include '../../models/entities/nomina.php';
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="salario.css">
+    <title>NOMINA</title>
+</head>
+
+<body>
+    
+    <form action="actions/addCategory.php" method="post">
+        <h1>NOMINA</h1>
+        <div>
+            <label>ID:</label>
+            <input type="text" ID="id" required>
+        </div>
+        <div>
+            <label>nombre:</label>
+            <input type="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label>Salario:</label>
+            <input type="salario" Salario="salario" required>
+        </div>
+        <div>
+            <label>Comision:</label>
+            <input type="comision" Comision="comision" required>
+        </div>
+            <button type="submit">Save</button>
+        </div>
+       
+         
+    </form>
+    
+   
+</body>
+
